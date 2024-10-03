@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Kavivanar, Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: min-content;
+    height: min-content;
+    border-radius: 12px;
+    background-color: black;
+    border: 15px solid black;
+}
+
+main > div:not(main > div:last-child) {
+    margin-bottom: 15px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d9d9d9;
+    color: black;
+}
+
+img {
+    padding: 10px;
+    background-color: #d9d9d9;
+    box-sizing: border-box;
+}
+
+.title p {
+    font-size: 1.5em;
+}
+.title h1 {
+    border: 3px dashed black;
+    padding: 0 15px 0 15px;
+    font-weight: bolder;
+}
+
+.buttons {
+    direction: rtl;
+    margin-top: 40px;
+}
+
+.buttons button:not(.buttons button:last-child) {
+    margin-bottom: 5px;
+}
+
+.buttons button {
+    font-weight: bold;
+    display: block;
+    border: 1px solid black;
+    padding: 5px;
+    width: 40%;
+    border-radius: 8px;
+}
+
+.desccontents {
+    border: 10px solid black;
+    border-radius: 12px;
+    background-color: #d9d9d9;
+    box-sizing: border-box;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.desc {
+    padding: 5px 10px 5px 10px;
+    box-sizing: border-box;
+    background: radial-gradient(50% 138.22% at 50% 50%, #000000 0%, #0084A8 20%, #0015FF 40%, #000000 60%, #0084A8 80%, #0015FF 100%);
+}
